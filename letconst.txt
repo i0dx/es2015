@@ -1,0 +1,10 @@
+var is a re-assignable, re-declarable, mutable varaible with a scope based around the prevailing function.
+let is reassginable, mutable variable that is not re-declarable. It has a block based scope that pertains to whatever the closest curly brace pairing is.
+const is only mutable, both its declaration and value are fixed. The reference within memory for non-primitive data-types is fixed but the contents inside of them are still subject to change.
+
+
+
+Hoisting is the concept of declaration of var variables occurs at the beginning of the file, then the are assigned value when the interpreter arrives proper line. 
+Referencing a const var before it is declared will yield undefined.
+let and const both declare and assign value to a variable at the same time, however, const requires an explicit definition whereas let can simply be defined without assignment.
+
